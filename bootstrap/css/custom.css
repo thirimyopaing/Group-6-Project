@@ -1,0 +1,99 @@
+
+@font-face{
+	font-family: lobster;
+	src:url(../../Lobster/Lobster-Regular.ttf);
+}
+
+/* 
+@font-face{
+	font-family: san;
+	src:url(../../sanchez/Sanchez-Regular.ttf);
+} */
+
+.logo_image{
+	width: 100px;
+	height: 90px;
+}
+.logo_style{
+	font-family: lobster;
+	margin-left:-35px;
+}
+
+
+#NAV{
+  	background:black;
+
+}
+
+.carousel_text{
+	position: absolute;
+	top: 180px;
+	left: 10%;
+}
+.font_style{
+	font-family: lobster;
+}
+
+.images{
+	
+	height: 60%;
+}
+
+a{
+	font-size: 17px;
+	font-weight: bold;
+
+}
+
+h4{
+	color: white;
+}
+
+h1{
+	color: white;
+}
+
+p{
+	color: white;
+}
+
+.background{
+	background-color: rgba(0,0,0,0.5);
+}
+
+.Font{
+	color: white;
+	font-weight: bold;
+}
+
+/* a.Cat:link {
+  text-decoration: none;
+}
+
+a.Cat:visited {
+  text-decoration: none;
+}
+
+a#Cat:hover {
+  text-decoration: none;
+  color: yellow;
+  line-clamp: ;
+} */
+
+a.Cat:hover{
+	
+	color: #7D6608;
+	text-decoration: none;
+}
+a.Cat{
+	color: #D4AC0D ;
+}
+
+a.logo{
+	color: yellow;
+}
+
+a.logo:hover{
+	color: #7D6608;
+	text-decoration: none;
+}
