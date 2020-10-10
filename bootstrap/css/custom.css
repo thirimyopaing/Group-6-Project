@@ -48,8 +48,14 @@ a{
 h4{
 	color: white;
 }
+h3{
+	color: white;
+}
 
 h1{
+	color: white;
+}
+h2{
 	color: white;
 }
 
@@ -96,4 +102,12 @@ a.logo{
 a.logo:hover{
 	color: #7D6608;
 	text-decoration: none;
+}
+
+i{
+	color: yellow;
+}
+
+img{
+	height: 300px;
 }

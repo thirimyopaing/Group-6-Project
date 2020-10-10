@@ -6,16 +6,17 @@
 	<link rel="icon"  href="image/icon-removebg-preview.png">
 	<link rel="stylesheet" type="text/css" href="aos/dist/aos.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
 
 </head>
-<body>
+<body class="bg-dark">
 
 	<!-- Nav Start -->	
 	<nav class="navbar navbar-expand-lg" id="NAV" >
 		<!-- img src="image/logo.png" class="img-fluid ml-4 logo_image"> -->
-		<a href="index.html" class="navbar-brand logo_style ml-5 logo">Movie Shop</a>
+		<a href="index.html" class="navbar-brand logo_style ml-5 logo"  data-aos="fade-left">Movie Shop</a>
 		<button class="navbar-toggler" data-target="#Nav" data-toggle="collapse">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -47,11 +48,11 @@
 			<div class="carousel-item active" >
 				<img src="image/ThaViJ.jpg" class="img-fluid w-100" class="images">
 				<div class="carousel_text d-none d-lg-block">
-					<h4 class="font_style pb-2" data-aos="fade-right"  data-aos-duration="2000"  data-aos-easing="ease-in-sine">Welcome To Our Movie Shop</h4>
-					<h1 class="font_style" data-aos="fade-right"  data-aos-duration="2000"  data-aos-easing="ease-in-sine" >Movie Shop</h1>
-					<p class="py-4" data-aos="slide-up"  data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod
+					<h4 class="font_style pb-2" data-aos="fade-right" data-aos-easing="ease-in-sine">Welcome To Our Movie Shop</h4>
+					<h1 class="font_style" data-aos="fade-right"  data-aos-easing="ease-in-sine" >Movie Shop</h1>
+					<p class="py-4" data-aos="slide-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod
 					tempor incididunt</p>
-					<button class="btn btn-outline-info">Shop Now</button>
+					<button class="btn btn-outline-warning">Shop Now</button>
 				</div>
 			</div>
 			<div class="carousel-item" data-aos="slide-up">
@@ -60,7 +61,7 @@
 					<h1 class="font_style" >Beautifully Creafted Bouquets</h1>
 					<p class="py-4" data-aos="slide-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod
 					tempor incididunt</p>
-					<button class="btn btn-outline-danger" >Shop Now</button>
+					<button class="btn btn-outline-warning" >Shop Now</button>
 				</div>
 			</div>
 		</div>
@@ -77,95 +78,108 @@
 	<h2 class= "text-center my-5" data-aos="fade-down">Popular </h2>
 	<div class="container md-5">
 		<div class="row">
-			<div class="cl-sm-6 col-md-3 col-lg3" data-aos="fade-up-right" data-aos-duration="1000"  >
-				<div class="card"  >
-					<img src="image/pexels-buenosia-carol-1907228.jpg" class="card-img-top">
-					<div class="card-body">
+			<div class="cl-sm-6 col-md-3 col-lg3" data-aos="fade-up-right" data-aos-easing="ease-in-out">
+				<div class="card bg-dark">
+					 	 <img src="image/m1.jpg" class="card-img-top">
+    				<a class="btn-floating btn-action share-toggle indigo ml-auto mr-4 float-right"><i class="fas fa-share-alt"></i></a>
+					<div class="card-body bg-dark">
 						<h3>Food one</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>	
+						<button class="btn btn-outline-warning btn-block">Detail</button>	
 					</div>	
 				</div>	
 			</div>
 
-			<div class="cl-sm-6 col-md-3 col-lg3" >
-				<div class="card" data-aos="fade-up-right" data-aos-duration="2000"  >
-					<img src="image/pexels-horizon-content-3738730.jpg" class="card-img-top">
-					<div class="card-body">
+			<div class="cl-sm-6 col-md-3 col-lg3" data-aos-easing="ease-in-out">
+				<div class="card bg-dark"  >
+					<img src="image/m2.jpg" class="card-img-top">
+					<a class="btn-floating btn-action share-toggle indigo ml-auto mr-4 float-right"><i class="fas fa-share-alt"></i></a>
+					<div class="card-body bg-dark">
 						<h3>Food Two</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>					
 				</div>			
 			</div>
 
 
-			<div class="cl-sm-6 col-md-3 col-lg3">
-				<div class="card" data-aos="fade-up-right" data-aos-duration="2000"  >
-					<img src="image/pexels-marta-dzedyshko-2067405.jpg" class="card-img-top">
-					<div class="card-body">
+			<div class="cl-sm-6 col-md-3 col-lg3" data-aos-easing="ease-in-out">
+				<div class="card bg-dark"  >
+					<img src="image/m3.jpg" class="card-img-top">
+					<a class="btn-floating btn-action share-toggle indigo ml-auto mr-4 float-right"><i class="fas fa-share-alt"></i></a>
+					<div class="card-body bg-dark">
 						<h3>Food Three</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>
 				</div>
 			</div>
 
-			<div class="cl-sm-6 col-md-3 col-lg3" data-aos="fade-up-right" data-aos-duration="3000"  >
-				<div class="card">
-					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
+			<div class="cl-sm-6 col-md-3 col-lg3" data-aos="fade-up-right" data-aos-easing="ease-in-out" >
+				<div class="card bg-dark">
+					<img src="image/m4.jpg" class="card-img-top">
+					<a class="btn-floating btn-action share-toggle indigo ml-auto mr-4 float-right"><i class="fas fa-share-alt"></i></a>
 					<div class="card-body">
 						<h3>Food Four</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div><br>
 
+		<div class="container">
+				<div class="row">
+					<div class="offset-md-4 col-md-4">
+						<button class="btn btn-dark btn-block"><a href="" class="logo">See more</a> </button>
+					</div>	
+				</div>
+			</div>
+
+
 			<h2 class="text-center my-5" data-aos="fade-down">Latest</h2>
 			<div class="container md-5">
 			<div class="row">
-			<div class="cl-sm-6 col-md-3 col-lg3" >
-				<div class="card" data-aos="fade-down-left" data-aos-duration="1000">
+			<div class="cl-sm-6 col-md-3 col-lg3"data-aos="fade-down-left" data-aos-easing="ease-in-out">
+				<div class="card" >
 					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
-					<div class="card-body">
+					<div class="card-body bg-dark">
 						<h3>Food Four</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>
 				</div>
 			</div>
-			<div class="cl-sm-6 col-md-3 col-lg3">
-				<div class="card" data-aos="fade-down-left" data-aos-duration="2000">
+			<div class="cl-sm-6 col-md-3 col-lg3"  data-aos-easing="ease-in-out">
+				<div class="card" >
 					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
-					<div class="card-body">
+					<div class="card-body bg-dark">
 						<h3>Food Four</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="cl-sm-6 col-md-3 col-lg3">
-				<div class="card" data-aos="fade-down-left" data-aos-duration="2000">
-					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
-					<div class="card-body">
-						<h3>Food Four</h3>
-						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>
 				</div>
 			</div>
 
-			<div class="cl-sm-6 col-md-3 col-lg3">
-				<div class="card" data-aos="fade-down-left" data-aos-duration="3000">
+			<div class="cl-sm-6 col-md-3 col-lg3"  data-aos-easing="ease-in-out">
+				<div class="card" >
 					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
-					<div class="card-body">
+					<div class="card-body bg-dark">
 						<h3>Food Four</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="cl-sm-6 col-md-3 col-lg3" data-aos="fade-down-left"data-aos-easing="ease-in-out">
+				<div class="card" >
+					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
+					<div class="card-body bg-dark">
+						<h3>Food Four</h3>
+						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>
 				</div>
 			</div>
@@ -177,45 +191,45 @@
 	<h2 class="text-center my-5" data-aos="zoom-in-down">Oldest</h2>
 			<div class="container md-5">
 			<div class="row">
-			<div class="cl-sm-6 col-md-3 col-lg3" >
-				<div class="card" data-aos="zoom-in-down" data-aos-duration="1000">
+			<div class="cl-sm-6 col-md-3 col-lg3" data-aos="zoom-in-down" data-aos-easing="ease-in-out" >
+				<div class="card" >
 					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
-					<div class="card-body">
+					<div class="card-body bg-dark">
 						<h3>Food Four</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>
 				</div>
 			</div>
-			<div class="cl-sm-6 col-md-3 col-lg3">
-				<div class="card" data-aos="zoom-in-down" data-aos-duration="2000">
+			<div class="cl-sm-6 col-md-3 col-lg3"  data-aos-easing="ease-in-out">
+				<div class="card">
 					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
-					<div class="card-body">
+					<div class="card-body bg-dark">
 						<h3>Food Four</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
-					</div>
-				</div>
-			</div>
-
-			<div class="cl-sm-6 col-md-3 col-lg3">
-				<div class="card" data-aos="zoom-in-down" data-aos-duration="2000">
-					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
-					<div class="card-body">
-						<h3>Food Four</h3>
-						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>
 				</div>
 			</div>
 
-			<div class="cl-sm-6 col-md-3 col-lg3">
-				<div class="card" data-aos="zoom-in-down" data-aos-duration="3000">
+			<div class="cl-sm-6 col-md-3 col-lg3" data-aos-easing="ease-in-out">
+				<div class="card"  >
 					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
-					<div class="card-body">
+					<div class="card-body bg-dark">
 						<h3>Food Four</h3>
 						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
-						<button class="btn btn-outline-danger btn-block">Detail</button>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="cl-sm-6 col-md-3 col-lg3" data-aos="zoom-in-down" data-aos-easing="ease-in-out">
+				<div class="card">
+					<img src="image/pexels-acharaporn-kamornboonyarush-1028734.jpg" class="card-img-top">
+					<div class="card-body bg-dark">
+						<h3>Food Four</h3>
+						<p>Some quick example text to build on the card title and make up the bulk of the card's contect</p>
+						<button class="btn btn-outline-warning btn-block">Detail</button>
 					</div>
 				</div>
 			</div>
@@ -238,7 +252,10 @@
 	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script type="text/javascript" src="aos/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+    	duration:2000,
+    	once: true,
+    });
   </script>
 </body>
 </html>
